@@ -24,7 +24,7 @@ npm install @nuxtjs/friendly-errors-webpack-plugin --save-dev
 Simply add `FriendlyErrorsWebpackPlugin` to the plugin section in your Webpack config.
 
 ```javascript
-var FriendlyErrorsWebpackPlugin = require('friendly-errors-webpack-plugin');
+var FriendlyErrorsWebpackPlugin = require('@nuxtjs/friendly-errors-webpack-plugin');
 
 var webpackConfig = {
   // ...
